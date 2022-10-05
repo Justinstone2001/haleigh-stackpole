@@ -42,9 +42,9 @@ a {
 }
 
 .main-nav li:hover {
-	color: #817357;
-    text-decoration: underline;
+	  color: #817357;
     cursor: pointer;
+    font-weight: 550;
 }
 
 #bar {
@@ -113,14 +113,14 @@ a {
   .aboutPic {
     height: 430px;
     width: 300px;
-    margin-left: 20px;
     border-radius: 15px;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
-              0 2px 2px rgba(0,0,0,0.11), 
-              0 4px 4px rgba(0,0,0,0.11), 
-              0 8px 8px rgba(0,0,0,0.11), 
-              0 16px 16px rgba(0,0,0,0.11), 
-              0 32px 32px rgba(0,0,0,0.11);
+    box-shadow: 
+    0 1px 1px rgba(0,0,0,0.11), 
+    0 2px 2px rgba(0,0,0,0.11), 
+    0 4px 4px rgba(0,0,0,0.11), 
+    0 8px 8px rgba(0,0,0,0.11), 
+    0 16px 16px rgba(0,0,0,0.11), 
+    0 32px 32px rgba(0,0,0,0.11);
   }
 
   #aboutContainer {
@@ -144,7 +144,6 @@ a {
   font-family: Manison;
   font-size: 50px;
   font-weight: 100;
-  margin-left: 10px;
 }
 
 .aboutTxt:before,
