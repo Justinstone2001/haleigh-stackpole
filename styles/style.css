@@ -1,11 +1,4 @@
-* {
-	box-sizing: border-box;
-}
-body {
-	line-height: 1.6;
-	margin: 0;
-	min-height: 100vh;
-}
+/* header */
 ul {
   margin: 0;
   padding: 0;
@@ -21,7 +14,6 @@ a {
 a {
 	text-decoration: none;
 }
-
 
 .logo {
 	margin: 0;
@@ -64,36 +56,6 @@ a {
 	padding-bottom: .5em;
 	background-color: #e7dac5;
     
-}
-
-/* ================================= 
-  Media Queries
-==================================== */
-
-
-@media (min-width: 769px) {
-	.header,
-	.main-nav {
-		display: flex;
-	}
-	.header {
-		flex-direction: column;
-		align-items: center;  
-    }
-    .logo {
-        font-size: 55px;
-    }
-}
-
-@media (min-width: 1025px) {
-	.header {
-		flex-direction: row;
-		justify-content: space-between;
-	}
-    .logo {
-        font-size: 45px;
-    }	
-
 }
 
   .instapic {
@@ -182,6 +144,7 @@ a {
   font-family: Manison;
   font-size: 50px;
   font-weight: 100;
+  margin-left: 10px;
 }
 
 .aboutTxt:before,
@@ -191,7 +154,7 @@ a {
   border-bottom: 4px solid #e7dac5;
   margin: auto;
   margin-left: 5px;
-  margin-right:5px
+  margin-right: 5px;
 }
 
   #cardTitle {
@@ -268,6 +231,13 @@ a {
   margin-top: 50px;
 }
 
+
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
 @media only screen and (min-width: 960px) {
   /* styles for browsers larger than 960px; */
 }
@@ -290,4 +260,29 @@ a {
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
 /* For landscape layouts only */
+}
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;  
+    }
+    .logo {
+        font-size: 55px;
+    }
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+    .logo {
+        font-size: 45px;
+    }	
+
 }
