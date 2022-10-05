@@ -118,7 +118,7 @@ a {
     margin-bottom: 10px;
   }
 
-  #handle {
+  /* #handle {
     font-family: Manison;
     font-size: 20px;
     text-decoration: none;
@@ -128,7 +128,7 @@ a {
 
   #handle:hover {
     opacity: .6;
-  }
+  } */
 
   .instacollage {
     height: 200px;
@@ -141,17 +141,9 @@ a {
     text-align: center;
   }
 
-
-  .aboutTxt {
-    font-family: Manison;
-    font-size: 40px;
-    margin-right: 20px;
-    margin-bottom: 40px;
-    margin-left: 20px;
-    margin-top: 40px;
-    text-align: center;
-    text-decoration: overline #e7dac5;
-    color: #353026;
+  #line {
+    position: relative;
+    margin-top: 20px;
   }
 
   .aboutPic {
@@ -179,6 +171,26 @@ a {
     margin: auto;
     font-size: 20px;
   }
+
+.aboutTxt {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: Manison;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.aboutTxt:before,
+.aboutTxt:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 4px solid #e7dac5;
+  margin: auto;
+  margin-left: 5px;
+  margin-right:5px
+}
 
   #cardTitle {
     font-size: 30px;
@@ -225,7 +237,7 @@ a {
   }
   
 #footer {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .logoHaleigh {
@@ -242,5 +254,15 @@ a {
 #socialContainer {
   display: inline-block;
   text-align: center;
+}
+
+.instagram-media {
+  height: 330px;
+}
+
+#collageDiv {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
 }
 
