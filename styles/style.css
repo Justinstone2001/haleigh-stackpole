@@ -1,0 +1,202 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h2,
+h3,
+a {
+	color: #000000;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.logo {
+	margin: 0;
+	font-size: 45px;
+    font-family: Manison;
+    font-weight: 100;
+}
+
+.main-nav {
+	margin-top: 5px;
+    font-family: Tenor Sans;
+    font-size: 18px;
+}
+
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+.main-nav a {
+	color: #000000;
+	font-size: .99em;
+}
+
+.main-nav a:hover {
+	color: #817357;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+#bar {
+    background-color: black;
+}
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	background-color: #e7dac5;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+    
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;  
+    }
+    .logo {
+        font-size: 55px;
+    }
+    #aboutContainer {
+      display: -webkit-flex;
+    }	
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+    .logo {
+        font-size: 45px;
+    }	
+}
+
+.mainFooter {
+    background-color: #e7dac5;
+    overflow: hidden;
+    margin-bottom: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .mainFooter a {
+    float: left;
+    display: block;
+    color: #000000;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Tenor Sans;
+  }
+  
+  /* Change the color of links on hover */
+  .mainFooter a:hover {
+    color: #817357;
+  }
+  .instapic {
+    height: 333px;
+    width: 333px;
+    margin-top: 50px;
+    margin-left: 30px;  
+    text-align: center;  
+  }
+  .instapic:hover {
+    cursor: pointer;
+    opacity: .80;
+  }
+  .picContainer {
+    text-align: center;
+  }
+  /* Add a color to the active/current link */
+  
+  .icon {
+    height: 35px;
+    width: 35px;
+    float: right;
+  }
+
+  .haleighlogo {
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+  }
+
+  #handle {
+    font-family: Manison;
+    font-size: 20px;
+    float: right;
+    margin-right: 145px;
+  }
+
+  .instacollage {
+    height: 200px;
+    width:400px;
+    float: right;
+    margin-top: 7px;
+  }
+
+  #handleDiv {
+    float: right;
+    margin-right: 40px;
+    margin-top:40px;
+  }
+
+  .aboutPic {
+    height: 512px;
+    width: 335px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* border-style: solid; */
+  
+  }
+
+  .aboutTxt {
+    font-family: Manison;
+    font-size: 35px;
+    margin-top:100px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+
+
+
+
+  
