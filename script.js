@@ -1,4 +1,4 @@
-var state = 'home';
+var state = 'about';
 
 var homeEl = document.querySelector('#home');
 var aboutEl = document.querySelector('#about');

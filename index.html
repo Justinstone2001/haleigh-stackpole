@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Haleigh Blog</title>
+    <link rel="icon" type="image/x-icon" href="./images/haleighlogo.jpeg">
 </head>
 <body>
     <section id="headerSect">
@@ -33,16 +38,45 @@
                 <img class="instapic" src="./images/instapic3.png" alt="instaPic3">        
             </a>
         </div> 
+        <div class ="collageDiv vstack gap-3">
+            <a id="handle" href="https://www.instagram.com/soccerstack/?hl=en">
+                @soccerstack
+            </a>
+            <img class="instacollage" src="./images/instacollage.jpeg" alt ="instacollage"/>
+        </div>
+        
 
     </section>
     
-    <section id="about">
+    <section id="about" class="mx-auto">
+        <!-- <h1 class="p-6" id="aboutTitle">
+            About Me
+        </h1>
         <div id="aboutContainer">
-            <img class="aboutPic" src="./images/aboutPic.jpeg" alt="aboutPic">
             <div class="aboutTxt">
-                Hi, I’m Haleigh! I’m a child of God, professional soccer player, and lifestyle blogger living in Raleigh, North Carolina. I have a extreme passion for creating and learning. So here I am sharing the journey with you! Hope you enjoy ;)
+                Hi, I’m Haleigh!
             </div>
+            <img class="aboutPic" src="./images/aboutPic.jpeg" alt="aboutPic">
+        </div> -->
+        <div id="pls">
+            <div class="aboutTxt">
+                Hi, I’m Haleigh!
+            </div>
+            <div id="aboutContainer" class="card m-3" style="max-width: 700px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img class="aboutPic" src="./images/aboutPic.jpeg" />
+                  </div>
+                  <div id="aboutBody" class="col-md-8">
+                    <div class="card-body" id="cardDiv">
+                      <h5 id="cardTitle" class="card-title">Welcome to my page!</h5>
+                      <p class="card-text">I’m a child of God, professional soccer player, and lifestyle blogger living in Raleigh, North Carolina. I have a extreme passion for creating and learning. So here I am sharing the journey with you!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
+    
     </section>
 
     <section id="blog">
@@ -58,23 +92,24 @@
     <section id="contact">
         Contact me bruh
     </section>
-    
-    <div class="mainFooter" id="footer">
-        <div>
-            <img src="./images/haleighlogo.jpeg" alt="haleigh" class="haleighlogo"  />
-            <img class="instacollage" src="./images/instacollage.jpeg" alt ="instacollage"/>
+
+    <div class="footer-dark" id="footer">
+        <div id="logoContainer">
+            <img src="./images/haleighlogo.jpeg" alt="haleigh" class="logoHaleigh"  />
         </div>
-        <div>
-            <a id="insta" href="https://www.instagram.com/soccerstack/?hl=en"><img class="icon" src=./images/instalogo.jpeg alt="instalogo"/></a>
-            <a id="pinterest" href="https://www.pinterest.com/haleighs21/"><img class="icon" src=./images/pinterestlogo.jpeg alt="pinterest"/></a>
-            <a id="tiktok" href="https://www.tiktok.com/@haleighstackpole"><img class="icon" src=./images/tiktoklogo.jpeg alt="tiktok"/></a>
-            <a id="email" href = "mailto:haleigh.stackpole@gmail.com">
-                <img class="icon" src=./images/emaillogo.jpeg alt="email"/>
-            </a>            <a id="handle" href="https://www.instagram.com/soccerstack/?hl=en">
-                @SOCCERSTACK
-            </a>
+        <div class="col item social" id="socialContainer">
+            <a href="https://www.pinterest.com/haleighs21/"><i class="icon ion-social-pinterest"></i></a>
+            <a href="https://www.tiktok.com/@haleighstackpole""><i class="icon fa-brands fa-tiktok"></i></a>
+            <a href="https://www.instagram.com/soccerstack/?hl=en"><i class="icon ion-social-instagram"></i></a>
+            <a href="mailto:haleigh.stackpole@gmail.com"><i class="icon fa-solid fa-envelope"></i></a>
         </div>
+        <p class="copyright">Rawr Inc © 2022</p>
     </div>
+    <script src="https://kit.fontawesome.com/61e44274ec.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+
     <script src="./script.js"></script>
 
 </body>
