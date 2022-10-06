@@ -16,29 +16,31 @@ a {
 }
 
 .logo {
-	margin: 0;
-	font-size: 45px;
+	  margin: 0;
+	  font-size: 45px;
     font-family: Manison;
     font-weight: 100;
 }
 
 .main-nav {
-	margin-top: 5px;
+	  margin-top: 5px;
     font-family: Tenor Sans;
     font-size: 18px;
+    margin-right: 40px;
 }
 
 .logo a,
 .main-nav a {
 	padding: 10px 15px;
 	text-transform: uppercase;
-	text-align: center;
+  text-align: center;
 	display: block;
 }
 
 .main-nav a {
 	color: #000000;
 	font-size: .99em;
+  text-align: center;
 }
 
 .main-nav li:hover {
@@ -78,7 +80,6 @@ a {
   .haleighlogo {
     height: 200px;
     width: 200px;
-    margin-left: 80px;
     margin-bottom: 10px;
   }
 
@@ -229,7 +230,6 @@ a {
   margin-right: auto;
   margin-top: 50px;
 }
-
 
 
 
