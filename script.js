@@ -1,10 +1,10 @@
-var state = 'home';
+var state = 'training';
 
 var homeEl = document.querySelector('#home');
 var aboutEl = document.querySelector('#about');
 var blogEl = document.querySelector('#blog');
 var shopEl = document.querySelector('#shop');
-var contactEl = document.querySelector('#contact');
+var contactEl = document.querySelector('#training');
 var headerEl = document.querySelector('#headerSect');
 var footerEl = document.querySelector('#footer');
 
@@ -54,7 +54,7 @@ function displayPages() {
         contactEl.style.display = 'none';
 
     }
-    if (state === 'contact') {
+    if (state === 'training') {
         headerEl.style.display = 'block';
         homeEl.style.display = 'none';
         footerEl.style.display = 'block';

@@ -230,7 +230,18 @@ a {
   margin-top: 50px;
 }
 
-
+#meetTrainer {
+  font-family: Manison;
+  font-size: 50px;
+  font-variant-caps:titling-caps;
+  text-align: center;
+  line-height: 1.9;
+}
+#trainingContainer {
+  border-style: solid;
+  border-color: white;
+  margin: 50px;
+}
 
 /* ================================= 
   Media Queries
@@ -241,11 +252,13 @@ a {
 }
 @media only screen and (min-width: 1440px) {
   /* styles for browsers larger than 1440px; */
+
 }
 @media only screen and (min-width: 2000px) {
   /* for sumo sized (mac) screens */
 }
 @media only screen and (max-device-width: 480px) {
+  
  /* styles for mobile browsers smaller than 480px; (iPhone) */
 }
 @media only screen and (device-width: 768px) {
@@ -283,4 +296,41 @@ a {
         font-size: 45px;
     }	
 
+}
+
+.card {
+  flex-direction: row;
+  align-items: center;
+ 
+}
+.card-title {
+  font-weight: bold;
+}
+.card img {
+  width: 50%;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: calc(0.25rem - 1px);
+}
+@media only screen and (max-width: 768px) {
+  a {
+    display: none;
+  }
+  .card-body {
+    padding: 0.5em 1.2em;
+  }
+  .card-body .card-text {
+    margin: 0;
+  }
+  .card img {
+    width: 90%;
+    margin-right: 10px;
+  }
+  #meetTrainer {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .card img {
+    width: 60%;
+  }
 }
