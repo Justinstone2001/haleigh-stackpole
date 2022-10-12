@@ -229,9 +229,102 @@ a {
   margin-right: auto;
   margin-top: 50px;
 }
+#trainerDiv{
+  margin: 20px;
 
+}
 
+#trainerHstack {
+  border-style: solid;
+  border-color: #ffffff;
+}
 
+#meetTrainer {
+  font-family: Manison;
+  font-size: 55px;
+  line-height: 1.8;
+  text-align: center;
+  font-weight: 900;
+}
+
+#trainingPic{
+  width: 80%;
+  margin: auto;
+}
+
+#aboutTrainer {
+  font-size: 25px;
+  font-family: Manison;
+  text-align: center;
+  margin: 20px;
+}
+
+.lineBreak {
+  color:#000000;
+  size: 20px;
+  margin: 50px;
+}
+
+#accomplishments {
+  text-align: center;
+  border-style: solid;
+  border-color:#ffffff;
+}
+
+.accHeader {
+  font-size: 25px;
+}
+
+.accTxt {
+  font-family: Manison;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#accPic {
+  width: 40%;
+}
+
+#accHeader {
+  font-family: Manison;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px;
+}
+
+#txt {
+  font-family: Manison;
+  text-align: center;
+  margin: 10px;
+  font-size: 20px;
+}
+
+#accCard {
+  border-style: solid;
+  border-color: #ffffff;
+}
+
+#sessionDiv {
+  text-align: center;
+  border-style: solid;
+  border-color: #ffffff;
+  margin: 10px;
+  
+}
+#sessionTxt {
+  font-family: Manison;
+  margin: 20px;
+}
+.sessionHeader {
+  font-family: Manison;
+}
+#sessionRight {
+  border-left: solid;
+  margin: 10px;
+}
+#sessionRightTxt {
+  margin: 10px;
+}
 /* ================================= 
   Media Queries
 ==================================== */
